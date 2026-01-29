@@ -1,0 +1,50 @@
+.calculator-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.calculator-container{
+  width: 30%;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.App-Heading{
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 2.5rem;
+}
+.calculation-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculation-input input{
+  width: 80%;
+  height: 2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.button-style{
+  width: 20%;
+  height: 80px;
+  border-radius: 5px;
+
+}
+
+.button-container{
+  gap: 1rem;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.button-container button:hover{
+  background-color: rgb(43, 42, 42);
+  color: white;
+}
