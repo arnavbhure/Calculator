@@ -7,7 +7,7 @@
 
 .calculator-container{
   width: 30%;
-  height: 80vh;
+  height: 90vh;
   border: 1px solid black;
 }
 
@@ -43,8 +43,12 @@
   align-items: center;
   margin: 1rem;
 }
-
+.button-container button
+{
+  font-size: 1.8rem;
+}
 .button-container button:hover{
   background-color: rgb(43, 42, 42);
   color: white;
+  cursor: pointer;
 }

@@ -1,8 +1,10 @@
+import OnClickEventListener from "./OnClickEventListener";
+
 const buttons = [
   "AC",
   "0",
   "1",
-  "<-",
+  "Back",
   "2",
   "3",
   "4",
@@ -15,13 +17,14 @@ const buttons = [
   "+",
   "/",
   "*",
+  "="
 ];
 
 function CalculatorButtons() {
   return (
     <div className="button-container">
-      {buttons.map((button, index) => (
-        <button className="button-style" key={index}>
+      {buttons.map((button) => (
+        <button className="button-style" key={button} onClick={() => OnClickEventListener(button)}>
           {button}
         </button>
       ))}
