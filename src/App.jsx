@@ -1,7 +1,6 @@
 import AppHeading from '../components/AppHeading'
 import './App.css'
-import CalculatorButtons from '../components/CalculatorButtons';
-import CalculationInput from '../components/CalculationInput';
+import CalculatorButtons from '../components/CalculatorButtonsAndInput';
 
 function App() {
 
@@ -9,8 +8,6 @@ function App() {
 <div className="calculator-flex">
     <div className='calculator-container'>
         <AppHeading></AppHeading>
-
-        <CalculationInput></CalculationInput>
 
         <CalculatorButtons></CalculatorButtons>
 
